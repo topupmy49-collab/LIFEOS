@@ -1,0 +1,6 @@
+{
+  "name": "LIFEOS",
+  "description": "Your Life. Your Goals. One Place. Offline-first personal productivity system for tasks, notes, personal finance, habits, and goals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

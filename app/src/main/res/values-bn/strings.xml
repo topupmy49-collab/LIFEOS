@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">LIFEOS</string>
+    <string name="app_tagline">আপনার জীবন। আপনার লক্ষ্য। এক ঠিকানায়।</string>
+    <string name="app_version">১.০.০ (এমভিপি)</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">হোম</string>
+    <string name="nav_tasks">টাস্ক</string>
+    <string name="nav_notes">নোট</string>
+    <string name="nav_finance">অর্থায়ন</string>
+    <string name="nav_settings">সেটিংস</string>
+    <string name="nav_goals">লক্ষ্য</string>
+    <string name="nav_habits">অভ্যাস</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">লাইফ ওএসে স্বাগতম</string>
+    <string name="onboarding_subtitle">আপনার ব্যক্তিগত জীবন পরিচালনার সম্পূর্ণ অফলাইন সিস্টেম। কাজ, নোট, ব্যয়, অভ্যাস ও লক্ষ্য একসাথে সাজান।</string>
+    <string name="onboarding_feature_tasks">স্মার্ট টাস্ক ও অগ্রাধিকার</string>
+    <string name="onboarding_feature_notes">দ্রুত নোট সংরক্ষণ</string>
+    <string name="onboarding_feature_finance">অফলাইন বাজেট ও হিসাবরক্ষণ</string>
+    <string name="onboarding_feature_habits">দৈনন্দিন অভ্যাসের ধারাবাহিকতা</string>
+    <string name="onboarding_select_language">ভাষা নির্বাচন করুন / Select Language</string>
+    <string name="onboarding_start_button">শুরু করুন</string>
+    <string name="onboarding_skip_button">এড়িয়ে যান</string>
+    <string name="onboarding_no_account_note">সম্পূর্ণ অফলাইন • কোনো অ্যাকাউন্টের প্রয়োজন নেই • ১০০% গোপনীয়তা</string>
+
+    <!-- Dashboard / Home -->
+    <string name="greeting_morning">সুপ্রভাত</string>
+    <string name="greeting_afternoon">শুভ অপরাহ্ন</string>
+    <string name="greeting_evening">শুভ সন্ধ্যা</string>
+    <string name="greeting_night">শুভ রাত্রি</string>
+    <string name="dashboard_welcome">আজকের দিনটি সুন্দর হোক</string>
+    <string name="dashboard_tasks_overview">আজকের কাজসমূহ</string>
+    <string name="dashboard_upcoming_tasks">আসন্ন কাজসমূহ</string>
+    <string name="dashboard_habits_today">আজকের অভ্যাস</string>
+    <string name="dashboard_pinned_notes">পিন করা নোট</string>
+    <string name="dashboard_finance_overview">আর্থিক চিত্র</string>
+    <string name="dashboard_goal_progress">চলমান লক্ষ্যসমূহ</string>
+    <string name="dashboard_quick_actions">দ্রুত যোগ করুন</string>
+    <string name="action_add_task">টাস্ক</string>
+    <string name="action_add_note">নোট</string>
+    <string name="action_add_finance">লেনদেন</string>
+    <string name="action_add_habit">অভ্যাস</string>
+    <string name="action_add_goal">লক্ষ্য</string>
+    <string name="no_tasks_today">আজকের জন্য কোনো কাজ নির্ধারিত নেই।</string>
+    <string name="no_habits_today">এখনও কোনো অভ্যাস তৈরি হয়নি। নতুন অভ্যাস শুরু করুন!</string>
+    <string name="no_pinned_notes">কোনো পিন করা নোট নেই। গুরুত্বপূর্ণ নোট পিন করুন।</string>
+    <string name="no_active_goals">কোনো সক্রিয় লক্ষ্য নেই। আপনি কী অর্জন করতে চান তা নির্ধারণ করুন।</string>
+
+    <!-- Tasks Module -->
+    <string name="tasks_title">টাস্ক</string>
+    <string name="task_add_new">নতুন টাস্ক</string>
+    <string name="task_edit">টাস্ক সম্পাদনা</string>
+    <string name="task_field_title">কাজের শিরোনাম</string>
+    <string name="task_field_desc">বিবরণ (ঐচ্ছিক)</string>
+    <string name="task_field_due_date">শেষ তারিখ</string>
+    <string name="task_field_priority">অগ্রাধিকার</string>
+    <string name="priority_low">কম</string>
+    <string name="priority_medium">মাঝারি</string>
+    <string name="priority_high">উচ্চ</string>
+    <string name="filter_all">সব</string>
+    <string name="filter_pending">বাকি আছে</string>
+    <string name="filter_completed">সম্পন্ন</string>
+    <string name="filter_overdue">মেয়াদোত্তীর্ণ</string>
+    <string name="sort_by_date">তারিখ অনুযায়ী</string>
+    <string name="sort_by_priority">অগ্রাধিকার অনুযায়ী</string>
+    <string name="sort_by_created">তৈরির তারিখ অনুযায়ী</string>
+    <string name="search_tasks">টাস্ক খুঁজুন...</string>
+    <string name="empty_tasks_title">কোনো টাস্ক নেই</string>
+    <string name="empty_tasks_subtitle">+ বাটনে চাপ দিয়ে আপনার প্রথম টাস্ক যোগ করুন।</string>
+    <string name="delete_task_confirm">আপনি কি এই টাস্কটি মুছে ফেলতে চান?</string>
+    <string name="task_saved">টাস্ক সফলভাবে সংরক্ষিত হয়েছে</string>
+    <string name="task_deleted">টাস্ক মুছে ফেলা হয়েছে</string>
+
+    <!-- Notes Module -->
+    <string name="notes_title">নোট</string>
+    <string name="note_add_new">নতুন নোট</string>
+    <string name="note_edit">নোট সম্পাদনা</string>
+    <string name="note_field_title">শিরোনাম</string>
+    <string name="note_field_body">আপনার চিন্তা, পরিকল্পনা বা তালিকা লিখুন...</string>
+    <string name="note_pin">নোট পিন করুন</string>
+    <string name="note_unpin">আনপিন করুন</string>
+    <string name="search_notes">নোট খুঁজুন...</string>
+    <string name="empty_notes_title">কোনো নোট নেই</string>
+    <string name="empty_notes_subtitle">আপনার চিন্তা ও পরিকল্পনাগুলো সহজে সংরক্ষণ করে রাখুন।</string>
+    <string name="delete_note_confirm">আপনি কি এই নোটটি মুছে ফেলতে চান?</string>
+    <string name="note_saved">নোট সংরক্ষিত হয়েছে</string>
+    <string name="note_deleted">নোট মুছে ফেলা হয়েছে</string>
+
+    <!-- Finance Module -->
+    <string name="finance_title">অর্থায়ন</string>
+    <string name="transaction_add_income">আয় যোগ করুন</string>
+    <string name="transaction_add_expense">ব্যয় যোগ করুন</string>
+    <string name="transaction_edit">লেনদেন সম্পাদনা</string>
+    <string name="transaction_type">ধরন</string>
+    <string name="type_income">আয়</string>
+    <string name="type_expense">ব্যয়</string>
+    <string name="field_amount">পরিমাণ</string>
+    <string name="field_category">বিভাগ</string>
+    <string name="field_note">মন্তব্য (ঐচ্ছিক)</string>
+    <string name="field_date">তারিখ</string>
+    <string name="monthly_income">মোট আয়</string>
+    <string name="monthly_expenses">মোট ব্যয়</string>
+    <string name="net_balance">অবশিষ্ট ব্যালেন্স</string>
+    <string name="monthly_budget">মাসিক বাজেট</string>
+    <string name="budget_set_dialog">মাসিক বাজেট নির্ধারণ</string>
+    <string name="budget_remaining">বাকি আছে</string>
+    <string name="budget_used">ব্যয় হয়েছে</string>
+    <string name="search_finance">লেনদেন খুঁজুন...</string>
+    <string name="empty_finance_title">কোনো লেনদেন রেকর্ড নেই</string>
+    <string name="empty_finance_subtitle">দৈনন্দিন আয় ও ব্যয়ের হিসাব রাখুন এবং সুষম আর্থিক শৃঙ্খলা বজায় রাখুন।</string>
+    <string name="delete_transaction_confirm">আপনি কি এই লেনদেনটি মুছে ফেলতে চান?</string>
+    <string name="error_invalid_amount">অনুগ্রহ করে সঠিক ইতিবাচক টাকার পরিমাণ লিখুন।</string>
+    <string name="category_salary">বেতন</string>
+    <string name="category_freelance">ফ্রিল্যান্সিং</string>
+    <string name="category_investment">বিনিয়োগ</string>
+    <string name="category_gift">উপহার / বোনাস</string>
+    <string name="category_food">খাবার ও বাজার</string>
+    <string name="category_transport">যাতায়াত</string>
+    <string name="category_utilities">ইউটিলিটি ও বিল</string>
+    <string name="category_housing">বাড়িভাড়া ও বাসস্থান</string>
+    <string name="category_entertainment">বিনোদন</string>
+    <string name="category_health">চিকিৎসা ও স্বাস্থ্য</string>
+    <string name="category_education">শিক্ষা</string>
+    <string name="category_shopping">কেনাকাটা</string>
+    <string name="category_other">অন্যান্য</string>
+
+    <!-- Goals Module -->
+    <string name="goals_title">লক্ষ্যসমূহ</string>
+    <string name="goal_add_new">নতুন লক্ষ্য</string>
+    <string name="goal_edit">লক্ষ্য সম্পাদনা</string>
+    <string name="goal_field_title">লক্ষ্যের শিরোনাম</string>
+    <string name="goal_field_desc">বিবরণ (ঐচ্ছিক)</string>
+    <string name="goal_field_target_date">অর্জনের লক্ষ্যমাত্রা তারিখ</string>
+    <string name="goal_field_progress">অগ্রগতি (%)</string>
+    <string name="goal_status_active">চলমান</string>
+    <string name="goal_status_completed">অর্জিত</string>
+    <string name="goal_mark_completed">অর্জিত হিসেবে চিহ্নিত করুন</string>
+    <string name="empty_goals_title">কোনো লক্ষ্য নির্ধারিত নেই</string>
+    <string name="empty_goals_subtitle">সুনির্দিষ্ট লক্ষ্য স্থির করুন এবং নিয়মিত অগ্রগতি ট্র্যাক করুন।</string>
+    <string name="delete_goal_confirm">আপনি কি এই লক্ষ্যটি মুছে ফেলতে চান?</string>
+
+    <!-- Habits Module -->
+    <string name="habits_title">অভ্যাস</string>
+    <string name="habit_add_new">নতুন অভ্যাস</string>
+    <string name="habit_edit">অভ্যাস সম্পাদনা</string>
+    <string name="habit_field_title">অভ্যাসের নাম</string>
+    <string name="habit_field_desc">অনুপ্রেরণা / বিবরণ (ঐচ্ছিক)</string>
+    <string name="habit_streak_current">বর্তমান ধারাবাহিকতা</string>
+    <string name="habit_streak_best">সেরা ধারাবাহিকতা</string>
+    <string name="habit_days_unit">দিন</string>
+    <string name="habit_today_done">আজ সম্পন্ন হয়েছে</string>
+    <string name="habit_today_pending">সম্পন্ন করতে চাপুন</string>
+    <string name="habit_archive">আর্কাইভ করুন</string>
+    <string name="habit_reactivate">পুনরায় সক্রিয় করুন</string>
+    <string name="empty_habits_title">কোনো অভ্যাস পর্যবেক্ষণ করা হচ্ছে না</string>
+    <string name="empty_habits_subtitle">ছোট ছোট দৈনিক অভ্যাস আপনাকে এগিয়ে নিয়ে যাবে অনেক দূর।</string>
+    <string name="delete_habit_confirm">আপনি কি এই অভ্যাসটি মুছে ফেলতে চান?</string>
+
+    <!-- Settings Module -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="section_preferences">পছন্দসমূহ</string>
+    <string name="setting_language">ভাষা</string>
+    <string name="setting_language_en">English</string>
+    <string name="setting_language_bn">বাংলা</string>
+    <string name="setting_theme">থিম</string>
+    <string name="theme_dark">ডার্ক (সুপারিশকৃত)</string>
+    <string name="theme_light">লাইট</string>
+    <string name="theme_system">সিস্টেম ডিফল্ট</string>
+    <string name="setting_currency">ডিফল্ট মুদ্রা</string>
+    <string name="section_data">ডেটা ও ব্যাকআপ</string>
+    <string name="data_export_title">ডেটা এক্সপোর্ট (JSON)</string>
+    <string name="data_export_desc">আপনার সমস্ত টাস্ক, নোট, লেনদেন, অভ্যাস ও লক্ষ্য অফলাইন JSON ফাইল হিসেবে ডাউনলোড করুন।</string>
+    <string name="data_import_title">ডেটা ইম্পোর্ট (JSON)</string>
+    <string name="data_import_desc">পূর্বের ব্যাকআপ JSON ফাইল থেকে ডেটা পুনরুদ্ধার করুন।</string>
+    <string name="data_clear_title">সমস্ত ডেটা মুছে ফেলুন</string>
+    <string name="data_clear_desc">এই ডিভাইস থেকে সমস্ত টাস্ক, নোট, আর্থিক তথ্য ও অভ্যাসের রেকর্ড স্থায়ীভাবে মুছে ফেলুন।</string>
+    <string name="data_clear_confirm_title">সমস্ত ডেটা মুছে ফেলবেন?</string>
+    <string name="data_clear_confirm_message">এই কাজটি অপরিবর্তনীয়। সমস্ত লোকাল ডেটা স্থায়ীভাবে মুছে যাবে। আপনি কি নিশ্চিত?</string>
+    <string name="section_privacy">নিরাপত্তা ও গোপনীয়তা</string>
+    <string name="privacy_title">অফলাইন স্টোরেজ ও গোপনীয়তা</string>
+    <string name="privacy_desc">আপনার সব ব্যক্তিগত তথ্য নিরাপদভাবে শুধুমাত্র আপনার ডিভাইসে সংরক্ষিত থাকে। কোনো দূরবর্তী সার্ভার বা ট্র্যাকিং নেই।</string>
+    <string name="section_premium">ভবিষ্যৎ পরিকল্পনা ও প্রিমিয়াম</string>
+    <string name="premium_title">লাইফ ওএস প্রিমিয়াম (শীঘ্রই আসছে)</string>
+    <string name="premium_desc">একাধিক ডিভাইসে ক্লাউড সিঙ্ক, এনক্রিপ্ট করা স্বয়ংক্রিয় ব্যাকআপ ও উন্নত আর্থিক অ্যানালিটিক্স প্রক্রিয়াধীন রয়েছে।</string>
+    <string name="section_about">পরিচিতি</string>
+    <string name="about_creator">কোটলিন ও জেটপ্যাক কম্পোজ দিয়ে নির্মিত</string>
+    <string name="data_exported_success">ডেটা সফলভাবে এক্সপোর্ট হয়েছে!</string>
+    <string name="data_cleared_success">সমস্ত লোকাল ডেটা মুছে ফেলা হয়েছে।</string>
+
+    <!-- Common Actions & Dialogs -->
+    <string name="btn_save">সংরক্ষণ করুন</string>
+    <string name="btn_cancel">বাতিল</string>
+    <string name="btn_delete">মুছে ফেলুন</string>
+    <string name="btn_edit">সম্পাদনা</string>
+    <string name="btn_close">বন্ধ করুন</string>
+    <string name="btn_done">সম্পন্ন</string>
+    <string name="btn_confirm">নিশ্চিত করুন</string>
+    <string name="btn_create">তৈরি করুন</string>
+    <string name="required_field">এই তথ্যটি প্রয়োজন</string>
+</resources>
